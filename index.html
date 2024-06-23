@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  
+</head>
+<body>
+
+  <main>
+    <div id="image">
+      <img src="./images/logo.svg" alt="">
+    </div>
+    <div class="container">
+      <div class="top">
+        <div class="bill-top">
+          <p>Bill</p>
+          <p class="incorrect-bill bill-hidden">Incorrect</p>
+        </div>
+        <input type="text" placeholder="$"  id="money">
+        <div class="tips">
+          <p>Select Tip %</p>
+          <div class="percentages">
+            <div class="perc-numbers">5%</div>
+            <div class="perc-numbers">10%</div>
+            <div class="perc-numbers">15%</div>
+            <div class="perc-numbers">20%</div>
+            <div class="perc-numbers">50%</div>
+            <div class="perc-numbers">100%</div>
+          </div>
+          <div class="people">
+            <p class="ppl">Number Of People</p>
+            <div id="peeps">
+              <div class="human">
+                <img src="./images/icon-person.svg" alt="">
+              </div>
+              <input type="number" min="0" name="" id="numOfPeople">
+            </div>
+          </div>
+      </div>
+      
+        <div class="bottom">
+          <div class="price">
+            <div class="tip-amount">
+              <div class="tip-left">
+                <h4>Tip Amount</h4>
+                <p>/ person</p>
+              </div>
+              <div class="tip-right">
+                <h1 id="tip">--</h1>
+              </div>
+            </div>
+            <div class="total-amount">
+              <div class="tip-left">
+                <h4>Total</h4>
+                <p>/ person</p>
+              </div>
+              <div class="tip-right">
+                <h1 id="total">--</h1>
+              </div>
+            </div>
+           
+            <button id="reset">Reset</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+ 
+</body>
+</html>

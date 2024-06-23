@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:  hsl(185, 41%, 84%);
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+}
+
+
+
+#image{
+  width: 100%;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  
+}
+
+.container{
+  background-color: hsl(0, 0%, 100%);
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  padding:2rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.bill-top{
+  color:  hsl(186, 14%, 43%);
+ 
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.incorrect-bill{
+  color: red;
+  display: none;
+}
+
+
+#money{
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+  background-color: hsl(189, 41%, 97%);
+  border-style: none;
+  border-radius: 12px;
+}
+
+.percentages{
+  margin-top: 1.7rem;
+  font-size: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.perc-numbers{
+  background-color:  hsl(183, 100%, 15%);
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  transition: 0.4s;
+  
+}
+
+.perc-numbers:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.perc-numbers:active{
+  opacity: 0.4;
+}
+
+.ppl{
+  color:  hsl(186, 14%, 43%);
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+#peeps{
+  height: 3rem;
+  background-color: hsl(189, 41%, 97%);
+  padding: 0.7rem 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+
+#peeps input{
+  border: none;
+  color: hsl(186, 14%, 43%);
+  font-size: 2rem;
+  text-align: right; 
+  
+}
+
+input, textarea {
+  background-color: hsl(189, 41%, 97%);
+}
+
+.human{
+ display: flex;
+}
+
+.price{
+  width: 100%;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 12px;
+  margin-top: 1.3rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.tip-amount, .total-amount{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+button{
+  width: 100%;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  padding: 1rem;
+  border: none;
+  font-family: "Space Mono", monospace;
+  font-weight: 900;
+  background-color:  hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+
+button:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
